@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Lora:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Lora:wght@400;500;600&display=swap');
 
 /* Fonts:
 font-family: 'Lora', serif;
@@ -136,11 +136,12 @@ body {
 }
 
 .hero_text {
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Caveat', cursive;
-    font-weight: 400;
-    line-height: 1.6;
+    font-weight: 500;
+    line-height: 1.5;
     color: #FEBCE2;
+    margin: 5px 25px;
 }
 
 .hero_title,
