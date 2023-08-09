@@ -82,9 +82,18 @@ body {
     padding: 6px 18px;
 }
 
+.header__item-btn:hover {
+    background-color: #B9B2B2;
+}
+
 .header__item-btn a {
     font-size: 25px;
     font-weight: 500;
+}
+
+.header__item-btn a:last-child:hover {
+    color: #22211F;
+    border-bottom: none;
 }
 
 .header__btn {
