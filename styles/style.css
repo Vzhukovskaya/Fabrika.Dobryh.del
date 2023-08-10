@@ -11,6 +11,12 @@ Colors:
  */
 
 /* ______________ Сommon styles ______________ */
+
+html {
+    scroll-behavior: smooth;
+    /* плавная прокрутка якорных ссылок */
+}
+
 body {
     font-family: 'Lora', serif;
     font-weight: 400;
@@ -113,14 +119,26 @@ body {
     margin: 3px 0 0 15px;
 }
 
+.select {
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    margin-left: 25px;
+}
+
 /* ______________ Main Banner ______________ */
 
 .hero {
-    position: relative;
-    height: 100vh;
-    min-height: 400px;
+    min-height: 700px;
+    height: 130vh;
+    margin-top: -40px;
+
     display: flex;
+    justify-content: center;
     align-items: center;
+
+    background-color: #fff;
+    background-image: url("../images/main.banner02.jpg");
+    background-size: cover;
 }
 
 .hero>.container {
@@ -146,7 +164,7 @@ body {
     font-weight: 400;
     line-height: 1.25;
     color: #22211F;
-    margin-top: 100px;
+    margin-top: 55px;
 }
 
 .hero__text {
@@ -184,3 +202,17 @@ body {
 .hero__content-btn i {
     margin-left: 20px;
 }
+
+/* ______________  Block 2/3 (Karina) ______________ */
+
+
+/* ______________  Block 3/4 (Nastia) ______________ */
+
+
+/* ______________  Block 6/7 (Anna) ______________ */
+
+
+/* ______________  Block 8 (Karina) ______________ */
+
+
+/* ______________  Footer (Lera) ______________ */
