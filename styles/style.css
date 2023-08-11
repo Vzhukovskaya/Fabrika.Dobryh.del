@@ -227,7 +227,7 @@ body {
 .project1 {
     grid-area: project1;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40% 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     grid-template-areas:
         "image_project1"
@@ -239,7 +239,7 @@ body {
 .project2 {
     grid-area: project2;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40% 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     grid-template-areas:
         "image_project2"
@@ -251,7 +251,7 @@ body {
 .project3 {
     grid-area: project3;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40% 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     grid-template-areas:
         "image_project3"
@@ -262,6 +262,8 @@ body {
 
 .image_project1 {
     grid-area: image_project1;
+    width: 350px;
+    height: 200px;
 }
 
 .name_project1 {
@@ -278,6 +280,8 @@ body {
 
 .image_project2 {
     grid-area: image_project2;
+    width: 350px;
+    height: 200px;
 }
 
 .name_project2 {
@@ -290,6 +294,8 @@ body {
 
 .image_project3 {
     grid-area: image_project3;
+    width: 350px;
+    height: 200px;
 }
 
 .name_project3 {
