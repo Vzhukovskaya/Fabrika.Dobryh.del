@@ -211,6 +211,96 @@ body {
 
 /* ______________  Block 6/7 (Anna) ______________ */
 
+.container_block6 {
+    display: grid;
+    grid-template-rows: 30% 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "h_block6 h1_block6 h1_block6"
+        "project1 project2 project3";
+}
+
+.h_block6 {
+    grid-area: h_block6;
+}
+
+.project1 {
+    grid-area: project1;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "image_project1"
+        "name_project1"
+        "text_project1"
+        "moreaboutprojects_btn";
+}
+
+.project2 {
+    grid-area: project2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "image_project2"
+        "name_project2"
+        "text_project2"
+        "moreaboutprojects_btn";
+}
+
+.project3 {
+    grid-area: project3;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "image_project3"
+        "name_project3"
+        "text_project3"
+        "moreaboutprojects_btn";
+}
+
+.image_project1 {
+    grid-area: image_project1;
+}
+
+.name_project1 {
+    grid-area: name_project1;
+}
+
+.text_project1 {
+    grid-area: text_project1;
+}
+
+.moreaboutprojects_btn {
+    grid-area: moreaboutprojects_btn;
+}
+
+.image_project2 {
+    grid-area: image_project2;
+}
+
+.name_project2 {
+    grid-area: name_project2;
+}
+
+.text_project2 {
+    grid-area: text_project2;
+}
+
+.image_project3 {
+    grid-area: image_project3;
+}
+
+.name_project3 {
+    grid-area: name_project3;
+}
+
+.text_project3 {
+    grid-area: text_project3;
+}
+
+
 
 /* ______________  Block 8 (Karina) ______________ */
 
