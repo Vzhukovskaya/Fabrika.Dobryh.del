@@ -216,3 +216,79 @@ body {
 
 
 /* ______________  Footer (Lera) ______________ */
+.footer {
+    background-color: #B9B2B2;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer__title {
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer__content-requisites p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+
+.social__icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social__icons-wrapper {
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+
+    border: 1px solid #22211F;
+    border-radius: 50%;
+
+    background-color: #B9B2B2;
+}
+
+.social__icons-wrapper:hover {
+    background-color: #FEBCE2;
+    opacity: 80%;
+}
+
+.social__icons-wrapper i {
+    font-size: 25px;
+    margin: 12px 13px;
+}
+
+.contact__address,
+.contact__mail,
+.contact__phone {
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.contact__address h3,
+.contact__mail h3,
+.contact__phone h3 {
+    font-weight: 500;
+}
+
+.contact__address p {
+    margin-left: 40px;
+}
+
+.contact__mail a {
+    margin-left: 55px;
+}
+
+.contact__phone a {
+    margin-left: 14px;
+}
