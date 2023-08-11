@@ -216,94 +216,173 @@ body {
     grid-template-rows: 30% 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-        "h_block6 h1_block6 h1_block6"
+        "h_block6 h_block6 h_block6"
         "project1 project2 project3";
+    height: 800px;
+    width: 1440px;
+    padding: 15px;
+    margin: 10px;
+
 }
 
 .h_block6 {
+    display: grid;
     grid-area: h_block6;
+    font-size: 42px;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+
 }
 
 .project1 {
     grid-area: project1;
     display: grid;
-    grid-template-rows: 40% 1fr 1fr 1fr;
+    grid-template-rows: 50% 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     grid-template-areas:
         "image_project1"
         "name_project1"
         "text_project1"
         "moreaboutprojects_btn";
+    justify-self: center;
+    border: 1px solid #22211F;
+    height: 501px;
+    width: 400px;
 }
 
 .project2 {
     grid-area: project2;
     display: grid;
-    grid-template-rows: 40% 1fr 1fr 1fr;
+    grid-template-rows: 50% 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     grid-template-areas:
         "image_project2"
         "name_project2"
         "text_project2"
         "moreaboutprojects_btn";
+    justify-self: center;
+    border: 1px solid #22211F;
+    height: 501px;
+    width: 400px;
 }
 
 .project3 {
     grid-area: project3;
     display: grid;
-    grid-template-rows: 40% 1fr 1fr 1fr;
+    grid-template-rows: 50% 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     grid-template-areas:
         "image_project3"
         "name_project3"
         "text_project3"
         "moreaboutprojects_btn";
+    justify-self: center;
+    border: 1px solid #22211F;
+    height: 501px;
+    width: 400px;
 }
 
 .image_project1 {
+    display: grid;
     grid-area: image_project1;
     width: 350px;
     height: 200px;
+    justify-self: center;
+    align-self: center;
 }
 
 .name_project1 {
     grid-area: name_project1;
+    display: grid;
+    justify-self: start;
+    align-self: center;
+    padding-left: 25px;
+    font-size: 24px;
 }
 
 .text_project1 {
     grid-area: text_project1;
+    display: grid;
+    justify-self: start;
+    align-self: center;
+    padding-left: 25px;
+    font-size: 19px;
 }
 
 .moreaboutprojects_btn {
     grid-area: moreaboutprojects_btn;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    background-color: #B9B2B2;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    border-radius: 20px;
+}
+
+.moreaboutprojects_btn:hover {
+    background-color: #FEBCE2;
 }
 
 .image_project2 {
     grid-area: image_project2;
     width: 350px;
     height: 200px;
+    display: grid;
+    justify-self: center;
+    align-self: center;
 }
 
 .name_project2 {
     grid-area: name_project2;
+    display: grid;
+    justify-self: start;
+    align-self: center;
+    padding-left: 25px;
+    font-size: 24px;
 }
 
 .text_project2 {
     grid-area: text_project2;
+    display: grid;
+    justify-self: start;
+    align-self: center;
+    padding-left: 25px;
+    font-size: 19px;
 }
 
 .image_project3 {
     grid-area: image_project3;
     width: 350px;
     height: 200px;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+
 }
 
 .name_project3 {
     grid-area: name_project3;
+    display: grid;
+    justify-self: start;
+    align-self: center;
+    padding-left: 25px;
+    font-size: 24px;
 }
 
 .text_project3 {
     grid-area: text_project3;
+    display: grid;
+    justify-self: start;
+    align-self: center;
+    padding-left: 25px;
+    font-size: 17px;
 }
 
 
