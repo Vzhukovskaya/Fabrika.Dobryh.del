@@ -206,8 +206,141 @@ body {
 /* ______________  Block 2/3 (Karina) ______________ */
 
 
-/* ______________  Block 3/4 (Nastia) ______________ */
+/* ______________  Block 4/5 (Nastia) ______________ */
+.block4 {
+    width: 100%;
+    height: 770px;
+}
 
+.block4__title h1,
+.block5__title h1 {
+    padding: 80px 0 60px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 350;
+    line-height: 1.25;
+    color: #22211F;
+}
+
+.block4__container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: 500px;
+    justify-content: space-around;
+    color: #22211F;
+}
+
+.block4__container-event {
+    padding: 0 25px 0;
+    border: 1px solid #22211F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.block4__container-event img {
+    width: 350px;
+    height: 200px;
+}
+
+.block4__container-event h2 {
+    font-size: 24px;
+    font-weight: 350;
+    line-height: 1.25;
+}
+
+.block4__container-event p,
+h3 {
+    font-size: 19px;
+    font-weight: 350;
+}
+
+.block4__more a {
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+    font-weight: 500;
+    border-bottom: 1px solid;
+}
+
+.block4__more:hover {
+    color: #FEBCE2;
+}
+
+.block5 {
+    background-color: #B9B2B2;
+    height: 550px;
+    width: 100%;
+}
+
+.block5__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center
+}
+
+.block5__main-donate_area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 30px repeat(3, 43px) 50px;
+    gap: 20px;
+    height: 280px;
+}
+
+.block5__input-sum {
+    background-color: #fff;
+    font-size: 16px;
+    text-align: center;
+    width: 70px;
+    border-radius: 30px;
+    color: #22211F;
+}
+
+.block5__input-sum:hover {
+    background-color: #FEBCE2;
+}
+
+.block5__input-name {
+    grid-area: 2/1/3/5;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.block5__input-number {
+    grid-area: 3/1/4/5;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.block5__input-mail {
+    grid-area: 4/1/5/5;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.block5__button {
+    grid-area: 5/1/6/5;
+    border-radius: 30px;
+    background-color: #FEBCE2;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block5__button:hover {
+    border: 2px solid #22211F;
+}
+
+.block5__main-qr {
+    display: flex;
+    align-items: center;
+}
+
+.block5__main-qr img {
+    width: 230px;
+    border: 2px solid #22211F;
+}
 
 /* ______________  Block 6/7 (Anna) ______________ */
 
@@ -391,3 +524,79 @@ body {
 
 
 /* ______________  Footer (Lera) ______________ */
+.footer {
+    background-color: #B9B2B2;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer__title {
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer__content-requisites p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+
+.social__icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social__icons-wrapper {
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+
+    border: 1px solid #22211F;
+    border-radius: 50%;
+
+    background-color: #B9B2B2;
+}
+
+.social__icons-wrapper:hover {
+    background-color: #FEBCE2;
+    opacity: 80%;
+}
+
+.social__icons-wrapper i {
+    font-size: 25px;
+    margin: 12px 13px;
+}
+
+.contact__address,
+.contact__mail,
+.contact__phone {
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.contact__address h3,
+.contact__mail h3,
+.contact__phone h3 {
+    font-weight: 500;
+}
+
+.contact__address p {
+    margin-left: 40px;
+}
+
+.contact__mail a {
+    margin-left: 55px;
+}
+
+.contact__phone a {
+    margin-left: 14px;
+}

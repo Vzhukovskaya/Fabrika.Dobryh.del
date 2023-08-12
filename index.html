@@ -11,13 +11,13 @@
 
 <body>
     <!-- Block Header (Lera) -->
-    <header class="header" id="header">
+    <header class="header">
         <div class="container header__container">
             <img class="main__logo" src="./images/logo01.png" alt="logo">
             <nav class="header__nav">
                 <ul>
                     <li class="header__item">
-                        <a href="#header" class="header__link">Главная</a>
+                        <a href="#main" class="header__link">Главная</a>
                     </li>
                     <li class="header__item">
                         <a href="#!" class="header__link">Новости</a>
@@ -42,9 +42,7 @@
                     <form class="select header__item" action="">
                         <select name="languages">
                             <option selected="selected" value="#">English</option>
-                            <option value="#">Deutsch</option>
-                            <option value="#">Italiano</option>
-                            <option value="#">Français</option>
+                            <option value="#">Русский</option>
                         </select>
                     </form>
                 </ul>
@@ -53,7 +51,7 @@
         </div>
     </header>
     <!-- Main Banner (Lera)-->
-    <div class="hero">
+    <div class="hero" id="main">
         <div class="container">
             <div class="hero__content">
                 <h1 class="hero__title">МР ОО "ФДД"</h1>
@@ -68,8 +66,64 @@
     <!-- Block 2/3 (Karina) -->
 
 
-    <!-- Block 3/4 (Nastia) -->
+    <!-- Block 4/5 (Nastia) -->
+    <div class="block4">
+        <div class="block4__title">
+            <h1>Мероприятия</h1>
+        </div>
+        <div class="block4__container">
+            <div class="block4__container-event">
+                <img src="/images/cat.jpg" alt="photo">
+                <h2>Название</h2>
+                <p>описание</p>
+                <h3>06.08.2023</h3>
+                <div class="block4__more">
+                    <a href="#!">Подробнее</a>
+                </div>
+            </div>
 
+            <div class="block4__container-event">
+                <img src="/images/dogs.jpg" alt="photo">
+                <h2>Название</h2>
+                <p>описание</p>
+                <h3>06.08.2023</h3>
+                <div class="block4__more">
+                    <a href="#!">Подробнее</a>
+                </div>
+            </div>
+
+            <div class="block4__container-event">
+                <img src="/images/forest.jpg" alt="photo">
+                <h2>Название</h2>
+                <p>описание</p>
+                <h3>06.08.2023</h3>
+                <div class="block4__more">
+                    <a href="#!">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block5">
+        <div class="block5__title">
+            <h1>Поддержите проект</h1>
+        </div>
+        <div class="block5__main">
+            <div class="block5__main-donate_area">
+                <button class="block5__input-sum"> 100</button>
+                <button class="block5__input-sum"> 500 </button>
+                <button class="block5__input-sum"> 1000</button>
+                <input class="block5__input-sum" placeholder="Другая" type="text">
+                <input class="block5__input-name" id="name" name="name" placeholder="Ваше имя" type="text">
+                <input class="block5__input-number" type="tel" id="phone" name="phone"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Ваш номер телефона" type="text">
+                <input class="block5__input-mail" type="email" id="email" placeholder="Ваш e-mail" type="text">
+                <a href="#!" class="block5__button">Поддержать</a>
+            </div>
+            <div class="block5__main-qr">
+                <img src="/images/QR-code.png">
+            </div>
+        </div>
+    </div>
 
     <!-- Block 6/7 (Anna) -->
 
@@ -102,7 +156,54 @@
 
 
     <!-- Footer (Lera) -->
-
+    <footer class="footer" id="footer">
+        <div class="footer__content container">
+            <div class="footer__content-requisites">
+                <h2 class="footer__title">Банковские реквизиты:</h2>
+                <p>ПАО СБЕРБАНК<br>
+                    БИК банка: 044442607<br>
+                    Р/счёт: 40703810836000000058<br>
+                    К/счёт: 30101810300000000607<br>
+                    ИНН: 4900012736 КПП: 490001001<br>
+                    ОГРН/ОГРНИП: 1224900001292 </p>
+            </div>
+            <div class="footer__content-social">
+                <h2 class="footer__title">Наши социальные сети:</h2>
+                <div class="social__icons">
+                    <a href="https://oauth.vk.com/" class="social__icons-wrapper">
+                        <i class="fa-brands fa-vk"></i>
+                    </a>
+                    <a href="https://t.me/share/url?url=https%3A%2F%2Fwww.fabrika-dobryh-del.ru%2F&text=%D0%9C%D0%A0%20%D0%9E%D0%9E%20%22%D0%A4%D0%94%D0%94%22%20-%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F&utm_source=share2"
+                        class="social__icons-wrapper">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?text=%D0%9C%D0%A0%20%D0%9E%D0%9E%20%22%D0%A4%D0%94%D0%94%22%20-%20%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F%20https%3A%2F%2Fwww.fabrika-dobryh-del.ru%2F&utm_source=share2"
+                        class="social__icons-wrapper">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#!" class="social__icons-wrapper">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__content-contacts">
+                <h2 class="footer__title">Контакты:</h2>
+                <div class="contact__address">
+                    <h3>Адрес :</h3>
+                    <p>685000, г. Магадан, улица<br>Метеостанции, 21А.</p>
+                </div>
+                <div class="contact__mail">
+                    <h3>Mail :</h3>
+                    <a class="contact__mail-link"
+                        href="mailto:fabrika-doryh-del@yandex.ru">fabrika-doryh-del@yandex.ru</a>
+                </div>
+                <div class="contact__phone">
+                    <h3>Телефон :</h3>
+                    <a class="contact__phone-link" href="tel:+79123456789">+79123456789</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <!-- For icons -->
