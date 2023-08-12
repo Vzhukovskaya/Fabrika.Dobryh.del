@@ -168,19 +168,16 @@ body {
 }
 
 .hero__text {
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 300;
     max-width: 100vw;
-
-    font-family: 'Caveat', cursive;
-    font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.5;
 
     color: #22211F;
     background-color: rgba(240, 240, 240, 0.2);
     border-radius: 50px;
 
-    margin: 18px 25px 50px;
+    margin: 18px 25px 80px;
 }
 
 .hero__content-btn {
@@ -188,7 +185,7 @@ body {
     font-family: 'Caveat', cursive;
     font-weight: 600;
     border-radius: 50px;
-    padding: 10px 80px;
+    padding: 12px 60px;
 
     cursor: pointer;
     background-color: #FEBCE2;
@@ -200,7 +197,8 @@ body {
 }
 
 .hero__content-btn i {
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 /* ______________  Block 2/3 (Karina) ______________ */
@@ -210,6 +208,7 @@ body {
 .block4 {
     width: 100%;
     height: 770px;
+    margin: 20px 0;
 }
 
 .block4__title h1,
@@ -236,6 +235,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-left: 10px;
 }
 
 .block4__container-event img {
@@ -346,16 +346,12 @@ h3 {
 
 .container_block6 {
     display: grid;
-    grid-template-rows: 30% 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
         "h_block6 h_block6 h_block6"
         "project1 project2 project3";
-    height: 800px;
+    height: 900px;
     width: 1440px;
     padding: 15px;
-    margin: 10px;
-
 }
 
 .h_block6 {
@@ -366,7 +362,7 @@ h3 {
     justify-self: center;
     width: 100%;
     text-align: center;
-
+    margin-left: 70px;
 }
 
 .project1 {
@@ -383,6 +379,7 @@ h3 {
     border: 1px solid #22211F;
     height: 501px;
     width: 400px;
+    margin-left: 70px;
 }
 
 .project2 {
@@ -441,7 +438,8 @@ h3 {
     justify-self: start;
     align-self: center;
     padding-left: 25px;
-    font-size: 19px;
+    font-size: 17px;
+    max-width: 360px;
 }
 
 .moreaboutprojects_btn {
@@ -487,7 +485,8 @@ h3 {
     justify-self: start;
     align-self: center;
     padding-left: 25px;
-    font-size: 19px;
+    max-width: 360px;
+    font-size: 17px;
 }
 
 .image_project3 {
@@ -514,11 +513,10 @@ h3 {
     display: grid;
     justify-self: start;
     align-self: center;
+    max-width: 360px;
     padding-left: 25px;
     font-size: 17px;
 }
-
-
 
 /* ______________  Block 8 (Karina) ______________ */
 
@@ -531,7 +529,7 @@ h3 {
 .footer__content {
     display: flex;
     justify-content: space-between;
-    padding: 50px 0;
+    padding: 35px;
 }
 
 .footer__title {
@@ -539,6 +537,10 @@ h3 {
     font-family: 'Caveat', cursive;
     font-weight: 500;
     margin-bottom: 20px;
+}
+
+.footer__content-social {
+    margin: 40px 0 0 40px;
 }
 
 .footer__content-requisites p {
@@ -550,12 +552,13 @@ h3 {
 
 .social__icons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    gap: 15px;
 }
 
 .social__icons-wrapper {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin-top: 25px;
 
     border: 1px solid #22211F;
@@ -570,8 +573,13 @@ h3 {
 }
 
 .social__icons-wrapper i {
-    font-size: 25px;
-    margin: 12px 13px;
+    font-size: 30px;
+    margin: 15px 16px;
+}
+
+.social__icons-wrapper .fa-telegram {
+    font-size: 33px;
+    margin: 13px 13px;
 }
 
 .contact__address,
@@ -581,12 +589,6 @@ h3 {
     font-size: 16px;
     margin-bottom: 20px;
     margin-left: 10px;
-}
-
-.contact__address h3,
-.contact__mail h3,
-.contact__phone h3 {
-    font-weight: 500;
 }
 
 .contact__address p {
