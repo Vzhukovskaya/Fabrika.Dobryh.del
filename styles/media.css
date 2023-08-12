@@ -1,0 +1,105 @@
+/* ______________ Block Header ______________ */
+
+@media screen and (max-width: 820px) and (min-width: 320px) {
+    .header {
+        font-size: 12px;
+        position: relative;
+    }
+
+    .header__container {
+        justify-content: space-around;
+        padding: 15px 17px;
+    }
+
+    .header__link {
+        display: none;
+    }
+
+    .header__nav ul {
+        flex-direction: column;
+    }
+
+    .link__media {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .link__media:hover {
+        color: #B9B2B2;
+        border-bottom: 2px solid #B9B2B2;
+    }
+
+    .header__item-btn i {
+        display: none;
+    }
+
+    .select {
+        display: none;
+    }
+
+    .hero {
+        height: 100vh;
+        margin-top: -100px;
+    }
+
+    .hero__title {
+        font-size: 45px;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+
+    .hero__text {
+        font-size: 18px;
+        line-height: 1.4;
+        background-color: rgba(240, 240, 240, 0.6);
+        border-radius: 25px;
+        margin: 18px 2px 43px;
+    }
+
+    .hero__content-btn {
+        font-size: 18px;
+        padding: 12px 65px;
+        opacity: 90%;
+    }
+
+    .hero__content-btn i {
+        display: none;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .social__icons {
+        margin-bottom: 40px;
+    }
+
+    .footer__content-requisites {
+        text-align: center;
+    }
+
+    .footer__content-social {
+        margin: 40px;
+    }
+
+    .footer__title {
+        text-align: center;
+    }
+
+    .contact__address h3,
+    .contact__mail h3,
+    .contact__phone h3 {
+        display: none;
+    }
+
+    .footer__content-contacts {
+        text-align: center;
+    }
+
+    .contact__address,
+    .contact__mail,
+    .contact__phone {
+        justify-content: center;
+        margin-right: 40px;
+    }
+}
