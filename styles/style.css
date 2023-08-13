@@ -27,7 +27,6 @@ body {
 .container {
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 .header {
@@ -228,6 +227,7 @@ body {
     grid-template-rows: 500px;
     justify-content: space-around;
     color: #22211F;
+    gap: 20px;
 }
 
 .block4__container-event {
@@ -275,15 +275,16 @@ h3 {
 
 .block5__main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center
+    justify-content: center;
+    grid-template-columns: 400px 300px;
+    justify-items: center;
 }
 
 .block5__main-donate_area {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 30px repeat(3, 43px) 50px;
-    gap: 20px;
+    gap: 15px;
     height: 280px;
 }
 
@@ -352,7 +353,6 @@ h3 {
         "project1 project2 project3";
     height: 900px;
     width: 1440px;
-    padding: 15px;
 }
 
 .h_block6 {
@@ -363,7 +363,6 @@ h3 {
     justify-self: center;
     width: 100%;
     text-align: center;
-    margin-left: 70px;
 }
 
 .project1 {
@@ -380,7 +379,7 @@ h3 {
     border: 1px solid #22211F;
     height: 501px;
     width: 400px;
-    margin-left: 70px;
+    margin-right: 50px;
 }
 
 .project2 {
@@ -397,6 +396,7 @@ h3 {
     border: 1px solid #22211F;
     height: 501px;
     width: 400px;
+    margin-right: 50px;
 }
 
 .project3 {
