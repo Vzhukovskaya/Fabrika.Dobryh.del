@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Lora:wght@400;500;600&display=swap');
+
+/* Fonts:
+font-family: 'Lora', serif;
+font-family: 'Caveat', cursive;
+
+Colors:
+Розовый FEBCE2;
+Серый B9B2B2;
+Черный 22211F;
+ */
+
+/* ______________ Сommon styles ______________ */
+
+html {
+    scroll-behavior: smooth;
+    /* плавная прокрутка якорных ссылок */
+}
+
+body {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* ______________ Block Header ______________ */
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 20px 0;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    opacity: 90%;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__logo {
+    width: 100px;
+    height: 50%;
+}
+
+.header__nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header__nav li+li {
+    margin-left: 40px;
+}
+
+.header__nav a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #22211F;
+    transition: color 0.3s;
+}
+
+.header__item-btn a:hover {
+    border-bottom: none;
+}
+
+.header__nav a:hover {
+    color: #B9B2B2;
+    border-bottom: 2px solid #B9B2B2;
+}
+
+.header__item-btn {
+    border: 1px solid #FEBCE2;
+    background-color: #FEBCE2;
+    border-radius: 30px;
+    padding: 6px 18px;
+    cursor: pointer;
+}
+
+.header__item-btn:hover {
+    background-color: #B9B2B2;
+}
+
+.header__item-btn a {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.header__item-btn a:last-child:hover {
+    color: #22211F;
+    border-bottom: none;
+}
+
+.header__btn {
+    display: flex;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+}
+
+.header__btn img {
+    width: 100px;
+    height: 50%;
+}
+
+.header__item-btn i {
+    font-size: 25px;
+    margin: 3px 0 0 15px;
+}
+
+.select {
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    margin-left: 25px;
+}
+
+/* ______________ Main Banner ______________ */
+
+.hero {
+    min-height: 700px;
+    height: 130vh;
+    margin-top: -40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+    background-image: url("../images/main.banner02.jpg");
+    background-size: cover;
+}
+
+.hero>.container {
+    flex-basis: 100%;
+}
+
+.hero__img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero__content {
+    text-align: center;
+}
+
+.hero__title {
+    font-size: 85px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #22211F;
+    margin-top: 55px;
+}
+
+.hero__text {
+    font-size: 27px;
+    font-weight: 300;
+    max-width: 100vw;
+    line-height: 1.5;
+
+    color: #22211F;
+    background-color: rgba(240, 240, 240, 0.2);
+    border-radius: 50px;
+
+    margin: 18px 25px 50px;
+}
+
+.hero__content-btn {
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 12px 60px;
+
+    cursor: pointer;
+    background-color: #FEBCE2;
+    opacity: 80%;
+}
+
+.hero__content-btn:hover {
+    background-color: #B9B2B2;
+}
+
+.hero__content-btn i {
+    font-size: 28px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+/* ______________  Block 2/3 (Karina) ______________ */
+
+
+/* ______________  Block 4/5 (Nastia) ______________ */
+.block4 {
+    width: 100%;
+    height: 770px;
+    margin: 20px 0;
+}
+
+.block4__title h1,
+.block5__title h1 {
+    padding: 80px 0 60px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 350;
+    line-height: 1.25;
+    color: #22211F;
+}
+
+.block4__container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: 500px;
+    justify-content: space-around;
+    color: #22211F;
+    gap: 20px;
+}
+
+.block4__container-event {
+    padding: 0 25px 0;
+    border: 1px solid #22211F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.block4__container-event img {
+    width: 350px;
+    height: 200px;
+}
+
+.block4__container-event h2 {
+    font-size: 24px;
+    font-weight: 350;
+    line-height: 1.25;
+}
+
+.block4__container-event p,
+h3 {
+    font-size: 19px;
+    font-weight: 350;
+}
+
+.block4__more a {
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+    font-weight: 500;
+    border-bottom: 1px solid;
+}
+
+.block4__more:hover {
+    color: #FEBCE2;
+}
+
+.block5 {
+    background-color: #B9B2B2;
+    height: 550px;
+    width: 100%;
+}
+
+.block5__main {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 400px 300px;
+    justify-items: center;
+}
+
+.block5__main-donate_area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 30px repeat(3, 43px) 50px;
+    gap: 15px;
+    height: 280px;
+}
+
+.block5__input-sum {
+    background-color: #fff;
+    font-size: 16px;
+    text-align: center;
+    width: 70px;
+    border-radius: 30px;
+    color: #22211F;
+}
+
+.block5__input-sum:hover {
+    background-color: #FEBCE2;
+}
+
+.block5__input-name {
+    grid-area: 2/1/3/5;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.block5__input-number {
+    grid-area: 3/1/4/5;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.block5__input-mail {
+    grid-area: 4/1/5/5;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.block5__button {
+    grid-area: 5/1/6/5;
+    border-radius: 30px;
+    background-color: #FEBCE2;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block5__button:hover {
+    border: 2px solid #22211F;
+}
+
+.block5__main-qr {
+    display: flex;
+    align-items: center;
+}
+
+.block5__main-qr img {
+    width: 230px;
+    border: 2px solid #22211F;
+}
+
+/* ______________  Block 6/7 (Anna) ______________ */
+
+.container_block6 {
+    display: grid;
+    grid-template-areas:
+        "h_block6 h_block6 h_block6"
+        "project1 project2 project3";
+    height: 900px;
+    width: 1440px;
+}
+
+.h_block6 {
+    display: grid;
+    grid-area: h_block6;
+    font-size: 42px;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+}
+
+.project1 {
+    grid-area: project1;
+    display: grid;
+    grid-template-rows: 50% 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "image_project1"
+        "name_project1"
+        "text_project1"
+        "moreaboutprojects_btn";
+    justify-self: center;
+    border: 1px solid #22211F;
+    height: 501px;
+    width: 400px;
+    margin-right: 50px;
+}
+
+.project2 {
+    grid-area: project2;
+    display: grid;
+    grid-template-rows: 50% 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "image_project2"
+        "name_project2"
+        "text_project2"
+        "moreaboutprojects_btn";
+    justify-self: center;
+    border: 1px solid #22211F;
+    height: 501px;
+    width: 400px;
+    margin-right: 50px;
+}
+
+.project3 {
+    grid-area: project3;
+    display: grid;
+    grid-template-rows: 50% 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "image_project3"
+        "name_project3"
+        "text_project3"
+        "moreaboutprojects_btn";
+    justify-self: center;
+    border: 1px solid #22211F;
+    height: 501px;
+    width: 400px;
+}
+
+.image_project1 {
+    display: grid;
+    grid-area: image_project1;
+    width: 350px;
+    height: 200px;
+    justify-self: center;
+    align-self: center;
+}
+
+.name_project1 {
+    grid-area: name_project1;
+    display: grid;
+    justify-self: start;
+    align-self: center;
+    padding-left: 25px;
+    font-size: 24px;
+}
+
+.text_project1 {
+    grid-area: text_project1;
+    display: grid;
+    justify-self: start;
+    align-self: center;
+    padding-left: 25px;
+    font-size: 17px;
+    max-width: 360px;
+}
+
+.moreaboutprojects_btn {
+    grid-area: moreaboutprojects_btn;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    background-color: #B9B2B2;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    border-radius: 20px;
+}
+
+.moreaboutprojects_btn:hover {
+    background-color: #FEBCE2;
+}
+
+.image_project2 {
+    grid-area: image_project2;
+    width: 350px;
+    height: 200px;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+}
+
+.name_project2 {
+    grid-area: name_project2;
+    display: grid;
+    justify-self: start;
+    align-self: center;
+    padding-left: 25px;
+    font-size: 24px;
+}
+
+.text_project2 {
+    grid-area: text_project2;
+    display: grid;
+    justify-self: start;
+    align-self: center;
+    padding-left: 25px;
+    max-width: 360px;
+    font-size: 17px;
+}
+
+.image_project3 {
+    grid-area: image_project3;
+    width: 350px;
+    height: 200px;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.name_project3 {
+    grid-area: name_project3;
+    display: grid;
+    justify-self: start;
+    align-self: center;
+    padding-left: 25px;
+    font-size: 24px;
+}
+
+.text_project3 {
+    grid-area: text_project3;
+    display: grid;
+    justify-self: start;
+    align-self: center;
+    max-width: 360px;
+    padding-left: 25px;
+    font-size: 17px;
+}
+
+/* ______________  Block 8 (Karina) ______________ */
+
+
+/* ______________  Footer (Lera) ______________ */
+.footer {
+    background-color: #B9B2B2;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.footer__title {
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer__content-social {
+    margin: 40px 0 0 40px;
+}
+
+.footer__content-requisites p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+
+.social__icons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.social__icons-wrapper {
+    width: 60px;
+    height: 60px;
+    margin-top: 25px;
+
+    border: 1px solid #22211F;
+    border-radius: 50%;
+
+    background-color: #B9B2B2;
+}
+
+.social__icons-wrapper:hover {
+    background-color: #FEBCE2;
+    opacity: 80%;
+}
+
+.social__icons-wrapper i {
+    font-size: 30px;
+    margin: 15px 16px;
+}
+
+.social__icons-wrapper .fa-telegram {
+    font-size: 33px;
+    margin: 13px 13px;
+}
+
+.contact__address,
+.contact__mail,
+.contact__phone {
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.contact__address p {
+    margin-left: 40px;
+}
+
+.contact__mail a {
+    margin-left: 55px;
+}
+
+.contact__phone a {
+    margin-left: 14px;
+}
