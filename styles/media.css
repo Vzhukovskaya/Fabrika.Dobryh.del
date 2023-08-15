@@ -1,4 +1,51 @@
 /* ______________ Block Header ______________ */
+@media screen and (max-width: 1025px) and (min-width: 820px) {
+    .header {
+        position: relative;
+    }
+
+    .select {
+        display: none;
+    }
+
+    .main__logo {
+        width: 80px;
+    }
+
+    .header__nav li+li {
+        margin-left: 25px;
+    }
+
+    .link__media {
+        display: none;
+    }
+
+    .header__item-btn {
+        padding: 7px 30px;
+    }
+
+    .hero {
+        min-height: 700px;
+        height: 90vh;
+        margin-top: -150px;
+    }
+
+    .hero__title {
+        margin-top: 30px;
+    }
+
+    .hero__text {
+        font-size: 34px;
+        font-weight: 500;
+    }
+
+    .hero__content-btn {
+        font-size: 40px;
+        padding: 12px 90px;
+    }
+
+
+}
 
 @media screen and (max-width: 820px) and (min-width: 320px) {
     .header {
@@ -18,16 +65,16 @@
         display: none;
     }
 
-    .header__nav a {
-        font-size: 14px;
-    }
-
     .header__nav li {
         margin-left: 37px;
     }
 
-    .header__nav ul {
-        flex-direction: column;
+    .header__nav li+li {
+        margin-left: 15px;
+    }
+
+    .header__nav {
+        display: flex;
     }
 
     .link__media {
@@ -42,14 +89,6 @@
 
     .header__item-btn {
         padding: 10px 25px;
-    }
-
-    .header__item-btn i {
-        display: none;
-    }
-
-    .header__item-btn a {
-        font-size: 18px;
     }
 
     .select {
@@ -71,7 +110,7 @@
         line-height: 1.4;
         background-color: rgba(230, 230, 240, 0.4);
         border-radius: 25px;
-        font-size: 17px;
+        font-size: 25px;
     }
 
     .hero__content-btn {
@@ -131,6 +170,32 @@
         margin-right: 40px;
     }
 }
+
+@media screen and (max-width: 400px) and (min-width: 220px) {
+    .header__nav ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        flex-direction: column-reverse;
+    }
+
+    .header__mobile {
+        display: none;
+    }
+
+    .header__item-btn {
+        margin-bottom: 10px;
+    }
+
+    .header__item-btn i {
+        display: none;
+    }
+
+    .header__item-btn a {
+        font-size: 22px;
+    }
+}
+
 
 /* block 4/5 */
 
