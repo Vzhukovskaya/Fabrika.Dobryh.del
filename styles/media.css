@@ -132,3 +132,46 @@
         margin-right: 40px;
     }
 }
+
+/* block 4/5 */
+
+@media screen and (max-width: 1120px) {
+    .block4__container {
+        grid-template-columns: repeat(2, 400px);
+    }
+
+    .event3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 820px)and (min-width: 420px) {
+    .block5__main {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .block4__container {
+        grid-template-columns: repeat(1, 400px);
+    }
+
+    .block5 {
+        height: 800px;
+    }
+
+    .event2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .block5__main-donate_area {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
