@@ -90,6 +90,7 @@ body {
 
 .header__item-btn:hover {
     background-color: #B9B2B2;
+    border-color: #B9B2B2;
 }
 
 .header__item-btn a {
@@ -223,7 +224,7 @@ body {
 
 .block4__container {
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 500px;
     justify-content: space-around;
     color: #22211F;
@@ -237,6 +238,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     margin-left: 10px;
+    max-width: 400px;
 }
 
 .block4__container-event img {
