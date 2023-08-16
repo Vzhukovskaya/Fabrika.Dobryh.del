@@ -132,6 +132,12 @@
         margin: 20px;
     }
 
+    /* Block 8 */
+    .block8_content {
+        flex-direction: column;
+        align-items: center;
+    }
+
     /* Footer */
     .footer__content {
         flex-direction: column;

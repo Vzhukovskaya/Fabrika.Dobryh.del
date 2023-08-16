@@ -344,6 +344,7 @@ h3 {
 .block5__main-qr img {
     width: 230px;
     border: 2px solid #22211F;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* ______________  Block 6/7 (Anna) ______________ */
@@ -521,8 +522,76 @@ h3 {
     font-size: 17px;
 }
 
-/* ______________  Block 8 (Karina) ______________ */
+/* ______________  Block 8 (Lera) ______________ */
+.block8_head {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Lora', serif;
+    text-align: center;
+    margin-bottom: 80px;
+}
 
+.block8_content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    gap: 70px;
+}
+
+.block8_block1-wrapper,
+.block8_block2-wrapper {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #22211F;
+}
+
+.block8-content {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 25px 20px 0;
+
+}
+
+.block8_elem {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 25px;
+    border: 1px solid #22211F;
+    border-radius: 50%;
+    margin-left: 125px;
+
+    background-color: #d4cfcf;
+}
+
+.block8_elem i {
+    font-size: 27px;
+    margin: 15px 16px;
+}
+
+.block8_title {
+    font-size: 24px;
+}
+
+.block8_text {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.block8_button {
+    font-size: 26px;
+    border: 2px solid #FEBCE2;
+    border-radius: 30px;
+    background-color: #FEBCE2;
+    font-family: 'Caveat', cursive;
+    padding: 8px;
+}
+
+.block8_button:hover {
+    border: 2px solid #22211F;
+}
 
 /* ______________  Footer (Lera) ______________ */
 .footer {
