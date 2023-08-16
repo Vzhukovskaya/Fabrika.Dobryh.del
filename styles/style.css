@@ -76,8 +76,7 @@ body {
 }
 
 .header__nav a:hover {
-    color: #B9B2B2;
-    border-bottom: 2px solid #B9B2B2;
+    border-bottom: 2px solid #22211F;
 }
 
 .header__item-btn {
@@ -189,6 +188,7 @@ body {
 
     cursor: pointer;
     background-color: #FEBCE2;
+    border: 2px solid black;
     opacity: 80%;
 }
 
@@ -262,7 +262,7 @@ h3 {
     font-family: 'Caveat', cursive;
     font-size: 28px;
     font-weight: 500;
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
 }
 
 .block4__more:hover {
@@ -354,7 +354,7 @@ h3 {
     grid-template-areas:
         "h_block6 h_block6 h_block6"
         "project1 project2 project3";
-    height: 900px;
+    height: 800px;
     width: 1440px;
 }
 
@@ -456,13 +456,14 @@ h3 {
     height: 40px;
     text-align: center;
     background-color: #B9B2B2;
-    font-size: 30px;
+    font-size: 29px;
     font-family: 'Caveat', cursive;
     border-radius: 20px;
 }
 
 .moreaboutprojects_btn:hover {
     background-color: #FEBCE2;
+    border: 2px solid black;
 }
 
 .image_project2 {
@@ -524,18 +525,17 @@ h3 {
 
 .container_block7 {
     background-color: #FEBCE2;
-    width: 200vw;
     height: 215px;
-    margin: auto;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-areas:
         "quote2"
         "author_quote2";
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 60px 150px 30px;
+}
+
+.container-block7 {
+    max-width: 1300px;
 }
 
 .quote2 {
@@ -553,6 +553,7 @@ h3 {
     align-self: center;
     font-family: 'Caveat', cursive;
     font-size: 40px;
+    margin-top: 15px;
 }
 
 /* ______________  Block 8 (Lera) ______________ */
@@ -561,7 +562,7 @@ h3 {
     font-weight: 400;
     font-family: 'Lora', serif;
     text-align: center;
-    margin-bottom: 80px;
+    margin: 80px 0;
 }
 
 .block8_content {
