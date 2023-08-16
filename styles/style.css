@@ -522,6 +522,39 @@ h3 {
     font-size: 17px;
 }
 
+.container_block7 {
+    background-color: #FEBCE2;
+    width: 200vw;
+    height: 215px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "quote2"
+        "author_quote2";
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.quote2 {
+    grid-area: quote2;
+    display: grid;
+    justify-content: start;
+    align-self: center;
+    font-size: 32px;
+}
+
+.author_quote2 {
+    grid-area: author_quote2;
+    display: grid;
+    justify-content: end;
+    align-self: center;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+
 /* ______________  Block 8 (Lera) ______________ */
 .block8_head {
     font-size: 40px;
