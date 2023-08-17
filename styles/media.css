@@ -201,6 +201,113 @@
     }
 }
 
+@media screen and (max-width: 768px) and (min-width: 320px) {
+
+    .container_block6 {
+        grid-template-columns: 100%;
+        grid-template-rows: 5% 27% 27% 27%;
+        grid-template-areas:
+            "h_block6"
+            "project1"
+            "project2"
+            "project3";
+        height: 90%;
+        width: auto;
+    }
+
+    .h_block6 {
+        font-size: 30px;
+    }
+
+    .project1 {
+        grid-template-rows: 50% 10% 15%;
+        grid-template-areas:
+            "image_project1"
+            "name_project1"
+            "moreaboutprojects_btn";
+        border: none;
+    }
+
+    .project2 {
+        grid-template-rows: 50% 10% 15%;
+        grid-template-areas:
+            "image_project2"
+            "name_project2"
+            "moreaboutprojects_btn";
+        border: none;
+
+    }
+
+    .project3 {
+        grid-template-rows: 50% 10% 15%;
+        grid-template-areas:
+            "image_project3"
+            "name_project3"
+            "moreaboutprojects_btn";
+        margin-right: 50px;
+        border: none;
+    }
+
+    .image_project1 {
+        width: 85%;
+        padding-left: 50px;
+        align-self: end;
+    }
+
+    .image_project2 {
+        width: 85%;
+        padding-left: 50px;
+        align-self: end;
+    }
+
+    .image_project3 {
+        width: 85%;
+        padding-left: 50px;
+        align-self: end;
+    }
+
+    .name_project1 {
+        font-size: 20px;
+        justify-self: center;
+        margin-left: 15px;
+    }
+
+    .name_project2 {
+        font-size: 20px;
+        justify-self: center;
+        margin-left: 15px;
+    }
+
+    .name_project3 {
+        font-size: 20px;
+        justify-self: center;
+        margin-left: 15px;
+    }
+
+    .text_project1 {
+        display: none;
+    }
+
+    .text_project2 {
+        display: none;
+    }
+
+    .text_project3 {
+        display: none;
+    }
+
+    .moreaboutprojects_btn {
+        width: 250px;
+        height: 30px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 20px;
+        justify-content: center;
+        margin-left: 45px;
+    }
+
+}
+
 
 
 /* Block 8 */
