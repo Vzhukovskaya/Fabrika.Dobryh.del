@@ -87,6 +87,10 @@
         border-bottom: 2px solid #B9B2B2;
     }
 
+    .header__item-btn a {
+        font-size: 19px;
+    }
+
     .header__item-btn {
         padding: 10px 25px;
     }
@@ -177,7 +181,7 @@
     }
 }
 
-@media screen and (max-width: 400px) and (min-width: 220px) {
+@media screen and (max-width: 620px) and (min-width: 220px) {
     .header__nav ul {
         display: flex;
         align-items: center;
@@ -226,10 +230,6 @@
 
     .block4__container {
         grid-template-columns: repeat(1, 400px);
-    }
-
-    .block5 {
-        height: 800px;
     }
 
     .event2 {
