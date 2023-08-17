@@ -160,6 +160,7 @@
             "image_project1"
             "name_project1"
             "moreaboutprojects_btn";
+        align-self: center;
     }
 
     .project2 {
@@ -168,6 +169,7 @@
             "image_project2"
             "name_project2"
             "moreaboutprojects_btn";
+        align-self: center;
 
     }
 
@@ -178,6 +180,7 @@
             "name_project3"
             "moreaboutprojects_btn";
         margin-right: 50px;
+        align-self: center;
     }
 
     .text_project1 {
@@ -190,6 +193,11 @@
 
     .text_project3 {
         display: none;
+    }
+
+    .container_block7 {
+        height: 100%;
+        padding: 60px 150px;
     }
 }
 
