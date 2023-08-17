@@ -211,8 +211,9 @@
             "project1"
             "project2"
             "project3";
-        height: 90%;
+        height: 165vh;
         width: auto;
+        margin-bottom: -130px;
     }
 
     .h_block6 {
@@ -303,7 +304,26 @@
         font-size: 20px;
         border-radius: 20px;
         justify-content: center;
+        align-self: start;
         margin-left: 45px;
+    }
+
+    .container_block7 {
+        height: 100%;
+        padding: 0;
+    }
+
+    .container-block7 {
+        width: auto;
+        padding: 10vw;
+    }
+
+    .quote2 {
+        font-size: 20px;
+    }
+
+    .author_quote2 {
+        font-size: 30px;
     }
 
 }
