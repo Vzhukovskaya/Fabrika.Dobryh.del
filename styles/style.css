@@ -23,6 +23,10 @@ body {
     font-size: 15px;
 }
 
+.hide {
+    display: none !important;
+}
+
 /* ______________ Block Header ______________ */
 .container {
     max-width: 1300px;
@@ -203,10 +207,6 @@ body {
 }
 
 /* ______________  Block 2/3 (Karina) ______________ */
-.block_2 {
-    display: flex;
-    font-family: 'Lora', serif;
-}
 
 .block2_contentbox {
     display: flex;
@@ -216,7 +216,6 @@ body {
     margin-top: 80px;
     margin-bottom: 80px;
 
-    font-family: 'Lora', serif;
     color: #22211F;
     font-style: normal;
     font-weight: 400;
@@ -225,7 +224,6 @@ body {
 
 .block2_head {
     margin-bottom: 15px;
-    font-family: 'Lora', serif;
     font-size: 42px;
     color: #22211F;
     font-style: normal;
@@ -234,26 +232,91 @@ body {
     text-align: center;
 }
 
+/* ______________ Tab Section ______________ */
+
+.tabs__nav {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.tabs__nav button {
+    padding: 8px 30px;
+
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Caveat', cursive;
+    color: #22211F;
+
+    border-radius: 30px;
+    background-color: #FEBCE2;
+}
+
+.tabs__nav button.active {
+    background-color: #B9B2B2;
+}
+
+.tabs__nav button+button {
+    margin-left: 15px;
+}
+
+.tabs__item {
+    background-color: rgba(217, 217, 222, 0.2);
+    border-radius: 30px;
+    padding: 50px 50px;
+}
+
+.tabs__item {
+    animation: fade 1s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.3;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.tabs__descr {
+    margin: 0 auto;
+}
+
+.tabs__descr p::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #FEBCE2;
+}
+
+.tabs__descr span {
+    font-size: 25px;
+    font-weight: 500;
+}
+
 .block2_content_text {
-    font-family: 'Lora', serif;
-    font-size: 24px;
+    font-size: 20px;
     color: #22211F;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
 
     line-height: 1.3;
     text-align: justify;
 }
 
 .bl2_text_1 {
-    font-family: 'Lora', serif;
-    font-size: 24px;
+    font-size: 20px;
+    width: 900px;
     color: #22211F;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+
     text-align: center;
+    margin: auto;
 }
 
 .bl2_list {
@@ -264,13 +327,12 @@ body {
     font-weight: bold;
 }
 
-.bl2_list_contents_par_1 {
-    list-style-image: url(./Ellipse1.svg);
-}
-
 .bl2_text_2 {
-    margin-top: 15px;
     text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    width: 700px;
+    margin: 70px auto 0;
 }
 
 /*_____block3_______*/
@@ -286,7 +348,7 @@ body {
 }
 
 .block3_text {
-    margin-left: 180px;
+    margin-left: 250px;
     margin-right: 322px;
     margin-top: 79px;
     width: 938px;
@@ -307,7 +369,8 @@ body {
     margin-left: 938px;
     color: #22211F;
     font-family: 'Caveat', cursive;
-    font-size: 25px;
+    font-size: 35px;
+    margin-top: 20px;
 }
 
 /* ______________  Block 4/5 (Nastia) ______________ */
