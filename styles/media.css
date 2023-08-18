@@ -204,6 +204,16 @@
     .header__item-btn a {
         font-size: 22px;
     }
+
+    .tabs__nav button+button {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    .block_3 {
+        width: auto;
+        padding: 10vw;
+    }
 }
 
 /* block 4/5 */

@@ -211,7 +211,7 @@ body {
 .block2_contentbox {
     display: flex;
     flex-direction: column;
-    margin: 80px 80px;
+    margin: 80px auto;
 
     color: #22211F;
     font-weight: 400;
@@ -304,7 +304,6 @@ body {
 
 .bl2_text_1 {
     font-size: 20px;
-    width: 900px;
     color: #22211F;
     font-weight: 400;
 
@@ -324,7 +323,6 @@ body {
     text-align: center;
     font-family: 'Caveat', cursive;
     font-size: 30px;
-    width: 700px;
     margin: 70px auto 0;
 }
 
@@ -341,9 +339,8 @@ body {
 }
 
 .block3_text {
-    margin-left: 300px;
-    margin-top: 79px;
-    width: 938px;
+    margin: 70px auto;
+    max-width: 930px;
     display: flex;
     color: #22211F;
     font-size: 32px;
