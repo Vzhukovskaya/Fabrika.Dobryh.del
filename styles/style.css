@@ -331,33 +331,38 @@ body {
     height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 
     background-color: #FEBCE2;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.block3_text {
-    margin: 70px auto;
-    max-width: 930px;
+.block3_container {
+    width: 1020px;
     display: flex;
+    flex-direction: column;
+}
+
+
+.block3_text {
+    display: flex;
+
+    font-family: 'Lora', serif;
     color: #22211F;
     font-size: 32px;
+    font-style: normal;
     font-weight: 400;
-
+    line-height: normal;
 }
 
 .block3_author {
     display: flex;
-    align-items: flex-start;
-    width: 322px;
-    height: 67px;
-    margin-left: 938px;
+    justify-content: flex-end;
+
     color: #22211F;
     font-family: 'Caveat', cursive;
-    font-size: 35px;
-    margin-top: 20px;
+    font-size: 40px;
 }
 
 /* ______________  Block 4/5 (Nastia) ______________ */
