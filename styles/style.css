@@ -211,24 +211,17 @@ body {
 .block2_contentbox {
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 80px 80px;
 
     color: #22211F;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .block2_head {
     margin-bottom: 15px;
     font-size: 42px;
     color: #22211F;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     text-align: center;
 }
 
@@ -260,7 +253,7 @@ body {
 }
 
 .tabs__item {
-    background-color: rgba(217, 217, 222, 0.2);
+    background-color: rgba(205, 205, 211, 0.2);
     border-radius: 30px;
     padding: 50px 50px;
 }
@@ -348,17 +341,14 @@ body {
 }
 
 .block3_text {
-    margin-left: 250px;
-    margin-right: 322px;
+    margin-left: 300px;
     margin-top: 79px;
     width: 938px;
     display: flex;
-    font-family: 'Lora', serif;
     color: #22211F;
     font-size: 32px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+
 }
 
 .block3_author {
