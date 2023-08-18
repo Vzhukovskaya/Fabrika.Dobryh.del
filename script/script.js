@@ -15,7 +15,7 @@ function showTab(index) {
 }
 
 hideTabs();
-showTab(0);
+showTab(1);
 
 tabsBtns.forEach((elem, index) => elem.addEventListener("click", () => {
     hideTabs();
