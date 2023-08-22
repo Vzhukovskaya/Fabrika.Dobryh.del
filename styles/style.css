@@ -516,6 +516,7 @@ h3 {
         "project1 project2 project3";
     height: 800px;
     width: 1440px;
+    ;
 }
 
 .h_block6 {
@@ -585,6 +586,7 @@ h3 {
     height: 200px;
     justify-self: center;
     align-self: center;
+    max-width: 100%;
 }
 
 .name_project1 {
@@ -633,6 +635,7 @@ h3 {
     display: grid;
     justify-self: center;
     align-self: center;
+    max-width: 100%;
 }
 
 .name_project2 {
@@ -661,6 +664,7 @@ h3 {
     display: grid;
     justify-self: center;
     align-self: center;
+    max-width: 100%;
 
 }
 

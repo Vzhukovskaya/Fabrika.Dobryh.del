@@ -329,7 +329,7 @@
 }
 
 /* Block 6/7 */
-@media screen and (max-width: 768px) and (min-width: 320px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
 
     .container_block6 {
         grid-template-columns: 100%;
@@ -339,7 +339,7 @@
             "project1"
             "project2"
             "project3";
-        height: 165vh;
+        height: auto;
         width: auto;
         margin-bottom: -130px;
     }
@@ -456,63 +456,58 @@
 
 }
 
-@media screen and (max-width: 1180px) and (min-width: 768px) {
+@media screen and (max-width: 1240px) and (min-width: 768px) {
 
     .container_block6 {
         grid-template-rows: 7% 30% 30% 30%;
+        grid-template-columns: 1fr;
         grid-template-areas:
             "h_block6"
             "project1"
             "project2"
             "project3";
-        height: 170vh;
         width: auto;
+        height: auto;
         gap: 10px;
-        margin-bottom: 40px;
     }
 
     .project1 {
-        grid-template-rows: 1fr 20% 20%;
+        grid-template-rows: 1fr 10% 10%;
         grid-template-areas:
             "image_project1"
             "name_project1"
             "moreaboutprojects_btn";
         align-self: center;
         border: 1px solid #22211F;
+        width: auto;
+        height: auto;
+        margin: 50px;
     }
 
     .project2 {
-        grid-template-rows: 1fr 20% 20%;
+        grid-template-rows: 1fr 10% 10%;
         grid-template-areas:
             "image_project2"
             "name_project2"
             "moreaboutprojects_btn";
         align-self: center;
         border: 1px solid #22211F;
-
+        width: auto;
+        height: auto;
+        margin: 50px;
     }
 
     .project3 {
-        grid-template-rows: 1fr 20% 20%;
+        grid-template-columns: 87vw;
+        grid-template-rows: 1fr 10% 10%;
         grid-template-areas:
             "image_project3"
             "name_project3"
             "moreaboutprojects_btn";
-        margin-right: 50px;
         align-self: center;
         border: 1px solid #22211F;
-    }
-
-    .project1 {
-        margin-left: 50px;
-    }
-
-    .project2 {
-        margin-left: 50px;
-    }
-
-    .project3 {
-        margin-left: 50px;
+        width: auto;
+        height: auto;
     }
 
     .text_project1 {
@@ -528,19 +523,22 @@
     }
 
     .image_project1 {
-        width: 85%;
+        width: 60%;
+        height: auto;
         padding-left: 5px;
         align-self: center;
     }
 
     .image_project2 {
-        width: 85%;
+        width: 60%;
+        height: auto;
         padding-left: 5px;
         align-self: center;
     }
 
     .image_project3 {
-        width: 85%;
+        width: 60%;
+        height: auto;
         padding-left: 5px;
         align-self: center;
     }
@@ -549,7 +547,8 @@
         justify-self: center;
         margin-left: -5px;
         align-self: start;
-        font-size: 24px;
+        font-size: 20px;
+        height: auto;
     }
 
     .name_project2 {
@@ -557,6 +556,7 @@
         margin-left: -5px;
         align-self: start;
         font-size: 24px;
+        height: auto;
     }
 
     .name_project3 {
@@ -564,21 +564,24 @@
         margin-left: -5px;
         align-self: start;
         font-size: 24px;
+        height: auto;
     }
 
     .moreaboutprojects_btn {
-        width: 300px;
-        height: 37px;
+        min-width: 280px;
+        min-height: 37px;
         text-align: center;
         font-size: 27px;
         border-radius: 20px;
         justify-content: center;
         align-self: start;
         margin-left: 5px;
+        height: auto;
+        width: auto;
     }
 
     .container_block7 {
-        height: 100%;
-        padding: 40px 140px 40px 130px;
+        height: auto;
+        width: auto;
     }
 }
