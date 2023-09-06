@@ -21,4 +21,4 @@ tabsBtns.forEach((elem, index) => elem.addEventListener("click", () => {
     hideTabs();
     showTab(index);
 }
-)); 
+));
