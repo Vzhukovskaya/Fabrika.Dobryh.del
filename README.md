@@ -16,7 +16,7 @@ Fabrika Dobryh Del is an engaging and impactful platform aimed at promoting soci
 - **Impact Tracking**: Visualize and track the impact of various activities and contributions.
 - 
 ## Additional Information
-Demo website available: https://vzhukovskaya.github.io/Interno/
+Demo website available:https://vzhukovskaya.github.io/Fabrika.Dobryh.del/
 
 ## Installation
 Clone the repository and set up the environment:
