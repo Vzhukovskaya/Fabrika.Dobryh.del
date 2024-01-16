@@ -2,5 +2,5 @@
 Team Members
 Team Lead: @darikomarenko
 Tech Lead: @Vzhukovskaya
-Frontend Developers: @Vzhukovskaya, @darikomarenko,@AnnaFrzn, @lilibeth66, @pieceofbondarenko
+Frontend Developers: @Vzhukovskaya, @ , @annabiryulina, @
 Tester: @Vzhukovskaya, @lilibeth66
