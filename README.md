@@ -14,7 +14,7 @@ Fabrika Dobryh Del is an engaging and impactful platform aimed at promoting soci
 - **Community Engagement**: Platform for users to share experiences, stories, and collaborate on projects.
 - **Project Management Tools**: For organizations to effectively manage and promote their causes.
 - **Impact Tracking**: Visualize and track the impact of various activities and contributions.
-- 
+  
 ## Additional Information
 Demo website available: https://vzhukovskaya.github.io/Fabrika.Dobryh.del/
 
